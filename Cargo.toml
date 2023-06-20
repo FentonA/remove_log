@@ -1,0 +1,13 @@
+[package]
+name = "remove_console_log"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+walkdir = "2.3.2"
+regex = "1.5.4"
+structopt = "0.3.23"
+
+[[bin]]
+name = "remove_console_log"
+path = "src/main.rs"
